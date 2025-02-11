@@ -1,0 +1,115 @@
+* {
+    margin: 0;  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.header a{
+    /* padding: 20px;
+    margin: 10px; */
+    margin-right: 20px;
+    color: rgb(18, 17, 17);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+.header_right{
+    display: flex;
+    min-width: 13vw; 
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: #fff;
+    border: #fff;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    /* transition: all 0.2s ease-in; */
+}
+.btn:hover{
+     box-shadow:  10px 10px 20px 5px rgb(240, 238, 243);
+     box-sizing: content-box;
+}
+.mainBody{
+   flex: 1;
+   display: flex;
+   margin-top: 5%;
+   flex-direction: column;
+}
+.mainBody img{
+    object-fit: contain;
+    height: 200px;
+}
+.search-box{
+    display: flex;
+    /* text-align: center; */
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #c0c0c0;
+    border-radius: 24px;
+    margin: 0 auto;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+   
+}
+.search-box:hover{
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    outline: none;
+    cursor: pointer;
+   
+}
+.buttons button:hover{
+    box-shadow:  10px 10px 20px 5px rgb(240, 238, 243);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.footer span{
+    /* padding: 20px;
+    margin: 10px; */
+    margin-right: 20px;
+    color: rgb(18, 17, 17);
+    font-size: 15px;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+.footer span:hover{
+    text-decoration: underline;
+}
+.footer_right{
+    display: flex;
+    min-width: 13vw; 
+    align-items: center;
+    justify-content: space-between;
+   
+}
